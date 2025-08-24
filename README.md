@@ -1,6 +1,7 @@
 # DARTS_MultiLevel_Pruning
 ### EEG-Based Sleep Stage Classification via Differentiable Architecture Search and Multi-Level Pruning
-#### *by: Van-Duc Khuat, and Wansu Lim, Department of Electrical and Computer Engineering, Sungkyunkwan, University, Republic of Korea, Suwon. 
+#### *By: Van-Duc Khuat, and Wansu Lim, 
+#### Department of Electrical and Computer Engineering, Sungkyunkwan, University, Republic of Korea, Suwon. 
 
 ## Abstract
 ![DARTS_MultiLevel_Pruning](imgs/DARTS_MultiLevel_Pruning.png)
