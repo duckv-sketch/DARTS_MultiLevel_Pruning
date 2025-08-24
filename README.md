@@ -23,10 +23,10 @@ python prepare_physionet.py --data_dir /path/to/PSG/files --output_dir edf_20_np
 Sleep stage classification using EEG signals remains challenging due to signal variability, label ambiguity, and over-parameterized architectures.  
 In this work, we propose a **two-stage framework**:
 
-- **Stage 1:** Differentiable architecture search with integrated data and operation pruning for robust sleep EEG modeling (Stage 1).  The preprocessed dataset generated after Stage 1 is provided via the following temporary link:  
+- **Stage 1:** Differentiable architecture search with integrated data and operation pruning for robust sleep EEG modeling.  The preprocessed dataset generated after Stage 1 is provided via the following temporary link:  
 [[Google Drive link here](https://drive.google.com/drive/folders/1No8c3ua_kwOPEx88kQhxMHIXJWZLj8b3?usp=sharing)]
 
-- **Stage 2:** Post-search filter pruning based on information capacity and independence (Stage 2).  
+- **Stage 2:** Post-search filter pruning based on information capacity and independence.  
 
 ## Reproduce Results (Stage 1 & Stage 2)
 
