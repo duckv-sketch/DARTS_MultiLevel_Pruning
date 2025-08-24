@@ -45,7 +45,7 @@ Prerequisites:
 Van-Duc Khuat  
 Department of Electrical and Computer Engineering,  
 Sungkyunkwan University, Suwon, Republic of Korea  
-Email: Duckv@g.skku.edu.vn
+Email: Duckv@g.skku.edu
 
 Wansu Lim*  
 Department of Electrical and Computer Engineering,  
