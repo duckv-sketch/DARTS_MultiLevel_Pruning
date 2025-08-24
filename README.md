@@ -17,10 +17,37 @@ cd prepare_datasets
 python prepare_physionet.py --data_dir /path/to/PSG/files --output_dir edf_20_npz --select_ch "EEG Fpz-Cz"
 ```
 
-## Training DARTS_MultiLevel_Pruning 
-For runing code by main_dart.bdp_20.ipynb
+## Training DARTS_MultiLevel_Pruning
+
+Sleep stage classification using EEG signals remains challenging due to signal variability, label ambiguity, and over-parameterized architectures.  
+In this work, we propose a **two-stage framework**:
+
+- **Stage 1:** Differentiable architecture search with integrated data and operation pruning for robust sleep EEG modeling (Stage 1).  The preprocessed dataset generated after Stage 1 is provided via the following temporary link:  
+[[Google Drive link here](https://drive.google.com/drive/folders/1No8c3ua_kwOPEx88kQhxMHIXJWZLj8b3?usp=sharing)]
+
+- **Stage 2:** PPost-search filter pruning based on information capacity and independence (Stage 2).  
+
+## Reproduce Results (Stage 1 & Stage 2)
+
+- main_dart_bdp_20.ipynb — Sleep-EDF-20 (Stage 1 + Stage 2)
+
+- main_dart_bdp_78.ipynb — Sleep-EDF-78 (Stage 1 + Stage 2)
+
+Prerequisites:
+
+-The proposed framework comprises two sequential stages. Both stages were implemented in PyTorch (v2.4.0) on the NVIDIA GPU Cloud (NGC) platform, using CUDA 12.6 for GPU acceleration, and executed on a high-performance GPU supercomputing environment.
 
 
+---
 
+## Contact
+Van-Duc Khuat  
+Department of Electrical and Computer Engineering,  
+Sungkyunkwan University, Suwon, Republic of Korea  
+Email: Duckv@g.skku.edu.vn
 
+Wansu Lim*  
+Department of Electrical and Computer Engineering,  
+Sungkyunkwan University, Suwon, Republic of Korea  
+*Corresponding author- Email: wansu.lim@skku.edu
 
